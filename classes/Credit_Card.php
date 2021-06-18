@@ -47,7 +47,7 @@ trait Credit_card
       return $_date;
     }else{
       /* echo strtotime($_date); */
-      throw new Exception('data scaduta');
+      throw new Exception('carta scaduta');
     }
   }
 
